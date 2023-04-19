@@ -1,0 +1,80 @@
+.input{
+    display:flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.input h2::after{
+    content:'';
+    width:25px;
+    height:2px;
+    position: absolute;
+    background: var(--pink);
+    left: 34.5rem;
+    top:24%;
+  
+}
+.form{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    gap:2rem;
+}
+.form input{
+    height:2rem;
+    width:15rem;
+    background: whitesmoke;
+    border-style:none;
+    border-bottom: 3px solid rgb(155, 19, 101);
+}
+.form .button{
+    height:2rem;
+    width:15rem;
+    background: var(--pink);
+    color: whitesmoke;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.form .button:hover{
+    color: black;
+    border-style: 10px solid rgb(150, 81, 127);
+}
+.input h6{
+    color: grey;
+    text-align: center;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    font-size:10px;
+   
+}
+.signin .twitter{
+    display: flex;
+    gap:.5rem;
+    align-items: center;
+    background: var(--blue);
+    color: aliceblue;
+    height:2rem;
+    width:15rem; 
+    padding-left:10px;
+    border-radius: 2px;
+}
+.signin .facebook{
+    display: flex;
+    gap:.5rem;
+    align-items: center;
+    background: var(--darkblue);
+    color: aliceblue;
+    height:2rem;
+    width:15rem; 
+    padding-left:10px;
+    border-radius: 2px;
+}
+.signin span{
+    font-size: 14px;
+}
